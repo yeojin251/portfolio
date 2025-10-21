@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>장여진 | 포트폴리오</title>
+  <style>
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;line-height:1.6;margin:0}
+    header{padding:28px 20px;background:#111;color:#fff}
+    main{max-width:860px;margin:24px auto;padding:0 16px}
+    h1{margin:0 0 6px 0;font-size:28px}
+    .tag{display:inline-block;font-size:12px;padding:2px 8px;border:1px solid #fff3;border-radius:999px}
+    section{margin:28px 0}
+    .card{border:1px solid #e5e7eb;border-radius:12px;padding:16px}
+    .row{display:flex;gap:12px;flex-wrap:wrap}
+    .pill{font-size:12px;border:1px solid #e5e7eb;border-radius:999px;padding:2px 8px}
+    footer{color:#6b7280;font-size:12px;margin:40px 0 24px;text-align:center}
+    a{color:#2563eb;text-decoration:none}
+    a:hover{text-decoration:underline}
+    img{max-width:100%;border-radius:10px;border:1px solid #e5e7eb}
+    .btn{display:inline-block;border:1px solid #111;border-radius:10px;padding:8px 12px}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>장여진</h1>
+    <div class="tag">공공데이터 · 웹/데이터 · 한밭대</div>
+  </header>
+
+  <main>
+    <section id="about" class="card">
+      <h2>소개</h2>
+      <p>공공데이터 기반 서비스 개발과 데이터 전처리/시각화를 즐깁니다. 빠르게 만들고, 간단하게 보여줍니다.</p>
+      <div class="row">
+        <span class="pill">Python</span><span class="pill">Pandas</span><span class="pill">Flask/Express</span><span class="pill">SQLite</span><span class="pill">GitHub Pages</span>
+      </div>
+    </section>
+
+    <section id="innosearch" class="card">
+      <h2>InnoSearch (공공데이터 공모전)</h2>
+      <p>연구개발특구 공공데이터를 정제·통합하고, 기술/기업/과제 정보를 한 곳에서 탐색/시각화하는 웹.</p>
+      <ul>
+        <li>데이터 전처리 파이프라인(결측/이상치 처리) → 지표 설계 → 대시보드</li>
+        <li>간단한 API(Flask/Express) + SQLite</li>
+        <li>키워드 기반 검색/필터, 차트 시각화</li>
+      </ul>
+      <p>
+        <a class="btn" href="https://github.com/yeojin251/innosearch" target="_blank">코드 레포</a>
+        <a class="btn" href="#demo">시연(스크린샷)</a>
+      </p>
+      <img src="assets/innosearch_1.png" alt="InnoSearch 스크린샷(자리표시)">
+    </section>
+
+    <section id="links" class="card">
+      <h2>링크</h2>
+      <ul>
+        <li><a href="https://github.com/yeojin251" target="_blank">GitHub @yeojin251</a></li>
+        <li><a href="mailto:jyeoj251@gmail.com">jyeoj251@gmail.com</a></li>
+      </ul>
+    </section>
+
+    <footer>© 2025 Jang Yeo-jin</footer>
+  </main>
+</body>
+</html>
